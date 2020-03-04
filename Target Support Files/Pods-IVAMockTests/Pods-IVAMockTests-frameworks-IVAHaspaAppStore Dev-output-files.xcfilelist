@@ -1,0 +1,8 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework
+${DWARF_DSYM_FOLDER_PATH}/RxSwift.framework.dSYM
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework
+${DWARF_DSYM_FOLDER_PATH}/RxBlocking.framework.dSYM
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework
+${DWARF_DSYM_FOLDER_PATH}/RxTest.framework.dSYM
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapshotTesting.framework
+${DWARF_DSYM_FOLDER_PATH}/SnapshotTesting.framework.dSYM

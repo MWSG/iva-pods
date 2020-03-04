@@ -1,0 +1,6 @@
+framework module Pods_IVAMockTests {
+  umbrella header "Pods-IVAMockTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

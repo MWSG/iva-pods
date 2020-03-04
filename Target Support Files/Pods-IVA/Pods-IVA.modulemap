@@ -1,0 +1,6 @@
+framework module Pods_IVA {
+  umbrella header "Pods-IVA-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,12 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/ActionSheetPicker-3.0" "${PODS_ROOT}/Alamofire" "${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/iOS" "${PODS_ROOT}/BonMot" "${PODS_ROOT}/CryptoSwift" "${PODS_ROOT}/Nuke" "${PODS_ROOT}/RxCocoa" "${PODS_ROOT}/RxRelay" "${PODS_ROOT}/RxSwift" "${PODS_ROOT}/SVProgressHUD" "${PODS_ROOT}/SnapKit" "${PODS_ROOT}/XCDYouTubeKit" "${PODS_ROOT}/Yams" "${PODS_ROOT}/ZXingObjC" "${PODS_ROOT}/lottie-ios"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/GoogleAnalytics"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/GoogleAnalytics/Libraries"
+OTHER_CFLAGS = $(inherited) -iframework "${PODS_ROOT}/ActionSheetPicker-3.0" -iframework "${PODS_ROOT}/BonMot" -iframework "${PODS_ROOT}/RxSwift" -iframework "${PODS_ROOT}/SVProgressHUD" -iframework "${PODS_ROOT}/SnapKit" -iframework "${PODS_ROOT}/XCDYouTubeKit" -iframework "${PODS_ROOT}/ZXingObjC" -iframework "${PODS_ROOT}/lottie-ios"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"GoogleAnalytics" -l"c++" -l"sqlite3" -l"z" -framework "AVFoundation" -framework "ActionSheetPicker_3_0" -framework "Alamofire" -framework "AppCenter" -framework "AppCenterAnalytics" -framework "AppCenterCrashes" -framework "AppCenterDistribute" -framework "BonMot" -framework "CFNetwork" -framework "CoreData" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreTelephony" -framework "CoreVideo" -framework "CryptoSwift" -framework "Foundation" -framework "ImageIO" -framework "JavaScriptCore" -framework "Lottie" -framework "MediaPlayer" -framework "Nuke" -framework "QuartzCore" -framework "RxCocoa" -framework "RxRelay" -framework "RxSwift" -framework "SVProgressHUD" -framework "SnapKit" -framework "SystemConfiguration" -framework "UIKit" -framework "XCDYouTubeKit" -framework "Yams" -framework "ZXingObjC" -weak_framework "SafariServices"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

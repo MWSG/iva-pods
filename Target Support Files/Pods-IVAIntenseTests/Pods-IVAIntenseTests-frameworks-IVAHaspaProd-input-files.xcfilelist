@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-IVAIntenseTests/Pods-IVAIntenseTests-frameworks.sh
+${PODS_ROOT}/RxSwift/RxSwift.framework
+${PODS_ROOT}/RxSwift/RxSwift.framework.dSYM
+${PODS_ROOT}/RxBlocking/RxBlocking.framework
+${PODS_ROOT}/RxBlocking/RxBlocking.framework.dSYM
+${PODS_ROOT}/RxTest/RxTest.framework
+${PODS_ROOT}/RxTest/RxTest.framework.dSYM
